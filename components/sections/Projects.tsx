@@ -71,7 +71,8 @@ export default function Projects() {
                       src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover"
-                      layout="intrinsic"
+                      width={800}
+                      height={450}
                     />
                   </div>
                   <CardTitle>{project.title}</CardTitle>
