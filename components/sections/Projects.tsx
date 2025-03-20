@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Github, ExternalLink, Youtube } from 'lucide-react';
 import * as SimpleIcons from 'simple-icons';
+import Image from 'next/image';
 
 export default function Projects() {
   const [filter, setFilter] = useState<string | null>(null);
@@ -66,10 +67,11 @@ export default function Projects() {
               <Card className="h-full flex flex-col hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="aspect-video rounded-lg overflow-hidden mb-4">
-                    <img
+                    <Image
                       src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover"
+                      layout="intrinsic"
                     />
                   </div>
                   <CardTitle>{project.title}</CardTitle>
