@@ -58,6 +58,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
             <Button
+              aria-label='Toggle Menu'
               variant="ghost"
               size="icon"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

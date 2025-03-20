@@ -46,6 +46,7 @@ export default function Hero() {
             const Icon = socialIcons[link.icon as keyof typeof socialIcons];
             return (
               <motion.a
+                aria-label={link.platform}
                 key={link.platform}
                 href={link.url}
                 target="_blank"
