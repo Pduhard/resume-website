@@ -36,19 +36,10 @@ export default function Projects() {
         </motion.div>
 
         <div className="flex flex-wrap gap-2 justify-center mb-8">
-          <Badge
-            variant={filter === null ? "default" : "outline"}
-            className="cursor-pointer"
-            onClick={() => setFilter(null)}
-          >
-            All
-          </Badge>
           {allTechnologies.map((tech) => (
             <Badge
               key={tech}
               variant={filter === tech ? "default" : "outline"}
-              className="cursor-pointer"
-              onClick={() => setFilter(tech)}
             >
               {tech}
             </Badge>
