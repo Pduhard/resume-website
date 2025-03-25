@@ -8,7 +8,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Portfolio - Paco Duhard-Jourdan',
-  description: 'Professional portfolio showcasing full-stack and blockchain development expertise',
+  description: 'Professional portfolio',
+  openGraph: {
+    title: 'Portfolio - Paco Duhard-Jourdan',
+    description: 'Professional portfolio',
+    images: ['https://paco-duhard-jourdan.vercel.app/portfolio.png'],
+  },
 };
 
 export default function RootLayout({
