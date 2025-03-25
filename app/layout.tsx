@@ -12,7 +12,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Portfolio - Paco Duhard-Jourdan',
     description: 'Professional portfolio showcasing my work and experience.',
-    images: ['https://paco-duhard-jourdan.vercel.app/portfolio.png'],
+    images: [
+      {
+        url: 'https://paco-duhard-jourdan.vercel.app/portfolio.png',
+        width: 1200,
+        height: 630,
+        alt: 'Portfolio - Paco Duhard-Jourdan',
+      },
+    ],
   },
 };
 
