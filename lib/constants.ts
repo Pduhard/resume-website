@@ -62,6 +62,15 @@ export const PROJECTS: Project[] = [
     technologies: ['Python', 'NumPy'],
     githubUrl: 'https://github.com/Pduhard/protodeep',
     featured: true
+  },
+  {
+    id: '7',
+    title: 'Portfolio Website',
+    description: 'Designed and developed a professional portfolio website to showcase full-stack and blockchain development expertise, leveraging modern tech stacks.',
+    image: '/portfolio.png',
+    technologies: ['TypeScript', 'React', 'Next.js', 'Tailwind'],
+    githubUrl: 'https://github.com/Pduhard/resume-website',
+    featured: true
   }
 ];
 
@@ -185,5 +194,6 @@ export const TECH_ICONS: { [key: string]: string } = {
   'Vitest': 'vitest',
   'Hardhat': 'hardhat',
   'Foundry': 'foundry',
-  'Viem': 'viem'
+  'Viem': 'viem',
+  'Tailwind': 'tailwindcss'
 };
