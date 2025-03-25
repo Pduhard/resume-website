@@ -36,6 +36,14 @@ export default function Hero() {
             fill
           />
         </motion.div>
+        <motion.h2
+          className="text-3xl md:text-4xl font-semibold mb-4"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.25 }}
+        >
+          Hey 👋 I&apos;m Paco
+        </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
