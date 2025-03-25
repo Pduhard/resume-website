@@ -11,7 +11,6 @@ export interface Project {
     title: string;
     url: string;
   }[];
-  featured: boolean;
 }
 
 export interface Experience {

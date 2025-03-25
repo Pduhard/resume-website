@@ -8,8 +8,7 @@ export const PROJECTS: Project[] = [
     image: '/kazaplan.png',
     technologies: ['JavaScript', 'TypeScript', 'Node.js', 'Vue.js', 'Vite','BabylonJS', 'Storybook', 'Jest', 'Playwright'],
     liveUrl: 'https://www.leroymerlin.fr/espace-client/kazaplan/mon-plan',
-    youtubeUrl: 'https://www.youtube.com/@Kozikaza',
-    featured: true
+    youtubeUrl: 'https://www.youtube.com/@Kozikaza'
   },
   {
     id: '2',
@@ -17,16 +16,14 @@ export const PROJECTS: Project[] = [
     description: 'Co-founded a multiplayer strategy game featuring cross-chain NFT collections powered by LayerZero, bridging the Web3 gaming experience across blockchains.',
     image: '/orivium.jpg',
     technologies: ['Solidity', 'React', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Express', 'Ethers.js', 'Hardhat', 'Foundry'],
-    githubUrl: 'https://github.com/Pduhard/orivium',
-    featured: true
+    githubUrl: 'https://github.com/Pduhard/orivium'
   },
   {
     id: '3',
     title: 'JO Paris 2024: Medical Management',
     description: 'A comprehensive medical intervention management solution for the Paris 2024 Olympics, focused on real-time data tracking and management.',
     image: '/jo-paris-2024.jpg',
-    technologies: ['TypeScript', 'Vue.js', 'Vite', 'PHP', 'Vitest'],
-    featured: true
+    technologies: ['TypeScript', 'Vue.js', 'Vite', 'PHP', 'Vitest']
   },
   {
     id: '4',
@@ -35,24 +32,21 @@ export const PROJECTS: Project[] = [
     image: '/ie2ps.jpg',
     technologies: ['JavaScript', 'TensorFlow'],
     liveUrl: 'https://tests-epaule.univ-lyon1.fr/',
-    youtubeUrl: 'https://www.youtube.com/watch?v=1aYInOn0szY',
-    featured: true
+    youtubeUrl: 'https://www.youtube.com/watch?v=1aYInOn0szY'
   },
   {
     id: '5',
     title: 'Ekium: Supply Chain Workflow',
     description: 'A workflow management application designed to streamline supply chain operations and increase efficiency through advanced task tracking and automation.',
     image: '/ekium.png',
-    technologies: ['C#', '.NET', 'PostgreSQL', 'RabbitMQ', 'Vue.js'],
-    featured: true
+    technologies: ['C#', '.NET', 'PostgreSQL', 'RabbitMQ', 'Vue.js']
   },
   {
     id: '6',
     title: 'Crypto Trading Bot',
     description: 'Developed a sophisticated crypto trading bot that integrates with both decentralized and centralized exchanges for real-time trading.',
     image: 'https://images.unsplash.com/photo-1518546305927-5a555bb7020d',
-    technologies: ['Node.js', 'TypeScript', 'PostgreSQL', 'Web3.js', 'Prisma', 'Express', 'Viem', 'Vitest'],
-    featured: true
+    technologies: ['Node.js', 'TypeScript', 'PostgreSQL', 'Web3.js', 'Prisma', 'Express', 'Viem', 'Vitest']
   },
   {
     id: '7',
@@ -60,8 +54,7 @@ export const PROJECTS: Project[] = [
     description: 'Built a deep learning library from scratch, providing a foundation for machine learning projects with custom neural network architectures.',
     image: '/protodeep.jpg',
     technologies: ['Python', 'NumPy'],
-    githubUrl: 'https://github.com/Pduhard/protodeep',
-    featured: true
+    githubUrl: 'https://github.com/Pduhard/protodeep'
   },
   {
     id: '7',
@@ -69,8 +62,7 @@ export const PROJECTS: Project[] = [
     description: 'Designed and developed a professional portfolio website to showcase full-stack and blockchain development expertise, leveraging modern tech stacks.',
     image: '/portfolio.png',
     technologies: ['TypeScript', 'React', 'Next.js', 'Tailwind'],
-    githubUrl: 'https://github.com/Pduhard/resume-website',
-    featured: true
+    githubUrl: 'https://github.com/Pduhard/resume-website'
   }
 ];
 
