@@ -7,8 +7,8 @@ import Navbar from '@/components/layout/Navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio - Full Stack Web3 Developer',
-  description: 'Professional portfolio showcasing blockchain and full-stack development expertise',
+  title: 'Portfolio - Paco Duhard-Jourdan',
+  description: 'Professional portfolio showcasing full-stack and blockchain development expertise',
 };
 
 export default function RootLayout({
